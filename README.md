@@ -52,6 +52,8 @@ spring.datasource.username=prd_user
 spring.datasource.password=StrongP!ssw0rd
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+
+jwt.secret=qwertyuioplkjhgfdsazxcvbnm1234567890
 ```
   
 `/etc/systemd/system/single-server.service` 파일
